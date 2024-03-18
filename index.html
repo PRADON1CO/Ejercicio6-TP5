@@ -61,13 +61,14 @@
     <section class="text-center">
       <h1>Temporizador</h1>
       <div class="mb-3">
-        <input type="number" class="form-control" placeholder="Ingrese el tiempo en segundos">
-        <button class="btn btn-primary mt-3">Iniciar</button>
-        <button class="btn btn-secondary mt-3">Pausar</button>
-        <button class="btn btn-danger mt-3">Reset</button>
+        <input type="number" class="form-control" id="input" placeholder="Ingrese el tiempo en segundos">
+        <button id="inico" class="btn btn-primary mt-3">Iniciar</button>
+        <button id="pausa" class="btn btn-secondary mt-3">Pausar</button>
+        <button id="reset" class="btn btn-danger mt-3">Reset</button>
       </div>
-      <div class="display-4 text-center">00:00:00</div>
+      <div id="tiempo" class="display-4 text-center">00:00:00</div>
     </section>
+
   </main>
   <footer class="text-center py-3 bg-primary-subtle">
     <p>&copy; Todos los derechos estan reservados</p>
